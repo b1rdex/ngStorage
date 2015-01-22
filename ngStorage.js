@@ -76,7 +76,7 @@
                     _last$storage = angular.copy($storage);
 
                     $rootScope.$watch(function() {
-                        _debounce || (s_debounce = $timeout(function() {
+                        _debounce || (_debounce = $timeout(function() {
                             _debounce = null;
 
                             if (!angular.equals($storage, _last$storage)) {

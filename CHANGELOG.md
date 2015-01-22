@@ -1,3 +1,6 @@
+### 0.3.0 / 2015.01.22
+* Now you can change `ngStorage-` prefix of storage records. Use `.changePrefix(name)`.
+
 ### 0.3.0 / 2013.10.16
 * Remove the force overwrite on each cycle which has been causing inadvertent side effects such as breaking object references, changing `$$hashKey`s, or modifying user code behaviors.
 * Add dirty-check debouncing. ([#2](https://github.com/gsklee/ngStorage/issues/2))
